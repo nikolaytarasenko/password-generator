@@ -27,5 +27,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify-es": "^1.0.4",
     "node-normalize-scss": "^8.0.0"
+  },
+  "dependencies": {
+    "tar": "^4.4.8"
   }
 }
