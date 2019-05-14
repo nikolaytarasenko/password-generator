@@ -1,20 +1,27 @@
 {
-  "name": "Password Generator",
+  "name": "password-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaytarasenko/password-generator.git"
+  },
+  "author": "Nikolay Tarasenko",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolaytarasenko/password-generator/issues"
+  },
+  "homepage": "https://github.com/nikolaytarasenko/password-generator#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-clean-css": "^4.0.0",
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^5.0.3",
     "gulp-sass": "^4.0.2",
