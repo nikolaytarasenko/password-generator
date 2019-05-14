@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/all.min.css">
+</head>
+<body>
+
+    <div id="app">
+        <div class="password">
+            <h2 class="password__title">Random Password Generator</h2>
+            <div class="password__header">
+                <div class="password__final" contenteditable="true">&nbsp;</div>
+                <button class="password__generate"></button>
+            </div>
+            <form class="password__form form">
+                <div class="form__row range">
+                    <div class="form__title">Password length: <span class="range__length" id="p-length">10</span></div>
+                    <label class="form__label range__label"><input type="range" min="4" max="40" class="range__input" id="p-range" value="10"></label>
+                </div>
+                <div class="form__row">
+                    <div class="form__title">Characters used:</div>
+                    <input type="checkbox" class="form__characters checkbox-custom " id="p-uppercase" name="uppercase" checked="checked">
+                    <label for="p-uppercase" class="form__label checkbox-custom-label">ABC</label>
+                    <input type="checkbox" class="form__characters checkbox-custom" id="p-lowercase" name="lowercase" checked="checked">
+                    <label for="p-lowercase" class="form__label checkbox-custom-label">abc</label>
+                    <input type="checkbox" class="form__characters checkbox-custom" id="p-numbers" name="numbers">
+                    <label for="p-numbers" class="form__label checkbox-custom-label">123</label>
+                    <input type="checkbox" class="form__characters checkbox-custom" id="p-symbols" name="symbols">
+                    <label for="p-symbols" class="form__label checkbox-custom-label">#$&</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="build/js/all.min.js"></script>
+</body>
+</html>
